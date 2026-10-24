@@ -105,7 +105,9 @@ export default function StoryExplorer() {
 
         <div className="order-2 flex flex-col gap-3 min-[850px]:flex-[1.3_1_380px]">
           <div className="card flex flex-col gap-[6px] rounded-[18px] bg-good-bg px-[18px] py-4 md:gap-2 md:rounded-[22px] md:px-6 md:py-[22px]">
-            <span className="text-[11px] font-bold tracking-[0.06em] text-good-fg md:text-xs">{labels.one}</span>
+            <span className="text-[11px] font-bold tracking-[0.06em] text-good-fg md:text-xs">
+              {cur.builtLabel ?? labels.one}
+            </span>
             <p className="m-0 text-[17px] font-semibold leading-[1.4] md:text-xl">{cur.built}</p>
           </div>
           <div

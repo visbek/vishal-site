@@ -99,6 +99,8 @@ export type Chapter = {
   built: string;
   broke: string;
   learned: string;
+  // Optional: replaces the heading "WHAT I BUILT" on the first card
+  builtLabel?: string;
   // The latest chapter shows two cards ("building" and "next") instead of three
   current?: boolean;
 };
@@ -129,10 +131,11 @@ export const story = {
       year: "School",
       years: "BEFORE 2017",
       title: "The kid who asked too many questions",
+      builtLabel: "WHAT I LOVED",
       built:
         "A love for science, maths and English poems. Vicky sir made physics feel like magic.",
       broke:
-        "From 11th class, it was all cramming. Marks, govt jobs, no thinking.",
+        "It felt wrong from the start. By 11th class I knew it: all cramming, marks and govt jobs, no thinking. When I started my own companies, I fully understood how broken the education system is.",
       learned:
         "Ask questions, even if you look dumb. Understanding beats memorising.",
     },
@@ -141,9 +144,9 @@ export const story = {
       years: "2017–2022",
       title: "7–8 marketing jobs",
       built:
-        "Content, copy and product marketing. Even closed deals with Reliance Retail.",
+        "Content, copy and product marketing. I brought in the leads and did most of the work to close deals with Reliance and Mirage Cinemas (self-service kiosks). The founder was meant to do the last step, and neither deal closed.",
       broke:
-        "Got fired 3–4 times. Didn't get into Punjab Police. Lucky escape.",
+        "Got fired 3–4 times. Didn't get into Punjab Police and the income tax department. Lucky escape.",
       learned:
         "Getting fired is not the end. I still kept getting good jobs.",
     },
