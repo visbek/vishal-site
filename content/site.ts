@@ -20,7 +20,6 @@ export const nav = [
 
 export const site = {
   name: "Vishal Thakur",
-  logoLetter: "B",
   footer: "© 2026 Vishal Thakur · Bengaluru, India",
   backHome: "← Back home",
 };

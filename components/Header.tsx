@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { nav, site } from "@/content/site";
+import Logo from "./Logo";
 
 const pill =
   "items-center rounded-full bg-accent font-semibold text-white no-underline hover:text-white";
@@ -8,10 +9,12 @@ export default function Header({ current }: { current?: string }) {
   return (
     <header className="border-b border-line">
       <div className="mx-auto flex max-w-[1120px] flex-wrap items-center justify-between gap-x-6 gap-y-[10px] px-[18px] py-3 md:px-5 md:py-[14px]">
-        <Link href="/" className="flex min-h-11 items-center gap-[10px] no-underline md:gap-3">
-          <span className="flex h-[34px] w-[34px] items-center justify-center rounded-[10px] bg-accent text-[13px] font-extrabold text-white md:h-10 md:w-10 md:rounded-xl md:text-sm">
-            {site.logoLetter}
-          </span>
+        <Link
+          href="/"
+          aria-label={`${site.name}, home`}
+          className="flex min-h-11 items-center gap-[10px] no-underline md:gap-3"
+        >
+          <Logo className="h-auto w-11 text-accent md:w-[52px]" />
           <span className="text-[17px] font-extrabold tracking-[-0.02em] md:text-xl">{site.name}</span>
         </Link>
 
