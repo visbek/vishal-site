@@ -21,7 +21,13 @@ export default function HomePage() {
             <h1 className="m-0 text-[46px] font-extrabold leading-[0.98] tracking-[-0.04em] md:text-[84px] md:leading-[0.95]">
               {home.title}
             </h1>
-            <p className="m-0 text-[17px] leading-[1.55] text-body md:max-w-[540px] md:text-xl">{home.intro}</p>
+            <div className="flex flex-col gap-4">
+              {home.intro.map((text) => (
+                <p key={text} className="m-0 text-[17px] leading-[1.55] text-body md:max-w-[540px] md:text-xl">
+                  {text}
+                </p>
+              ))}
+            </div>
           </div>
           <Image
             src="/vishal.jpg"

@@ -38,11 +38,13 @@ export const contact = {
 
 export const home = {
   description:
-    "I've started a few companies. Some worked, most didn't. I've been fired from jobs, lost big clients, and started again more than once.",
-  badge: "BUILDING SPARRWO & BORING MONKEE FROM BENGALURU",
+    "Vishal Thakur from Bengaluru. Fired 3–4 times, two startups closed, still building Sparrwo and Boring Monkee. The good and the bad, all here.",
+  badge: "CURRENTLY BUILDING SPARRWO & BORING MONKEE",
   title: "Hi, I'm Vishal.",
-  intro:
-    "I've started a few companies. Some worked, most didn't. I've been fired from jobs, lost big clients, and started again more than once. I'm putting it all here, the good and the bad, so if you're on a similar road, maybe it helps you a little.",
+  intro: [
+    `I've been fired 3–4 times. Two of my startups died. I lost 3 big clients in one year. And I'm still building, because I'd rather try and fail than say "kaash maine ye kar liya hota" at 60.`,
+    "Here's all of it, the good and the bad. If you're on a similar road, maybe it saves you a few mistakes.",
+  ],
   photoAlt: "Vishal Thakur",
   buildingHeading: "RIGHT NOW I'M BUILDING",
   building: [
