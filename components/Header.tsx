@@ -14,8 +14,7 @@ export default function Header({ current }: { current?: string }) {
           aria-label={`${site.name}, home`}
           className="flex min-h-11 items-center gap-[10px] no-underline md:gap-3"
         >
-          <Logo className="h-auto w-11 text-accent md:w-[52px]" />
-          <span className="text-[17px] font-extrabold tracking-[-0.02em] md:text-xl">{site.name}</span>
+          <Logo className="h-auto w-[52px] text-accent md:w-16" />
         </Link>
 
         <a href="#contact" className={`${pill} flex min-h-11 px-[14px] text-sm md:hidden`}>
