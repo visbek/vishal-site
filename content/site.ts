@@ -38,12 +38,12 @@ export const contact = {
 
 export const home = {
   description:
-    "Vishal Thakur from Bengaluru. Fired 3–4 times, two startups closed, still building Sparrwo and Boring Monkee. The good and the bad, all here.",
+    "Vishal Thakur from Bengaluru. Building Sparrwo and Boring Monkee. Fired a few times, two startups closed, still going. The good and the bad, all here.",
   badge: "CURRENTLY BUILDING SPARRWO & BORING MONKEE",
   title: "Hi, I'm Vishal.",
   intro: [
-    `I've been fired 3–4 times. Two of my startups died. I lost 3 big clients in one year. And I'm still building, because I'd rather try and fail than say "kaash maine ye kar liya hota" at 60.`,
-    "Here's all of it, the good and the bad. If you're on a similar road, maybe it saves you a few mistakes.",
+    "I love building things, taking risks and travelling. I enjoy long walks, good food and time with my wife.",
+    "I've been fired 3–4 times, closed two startups and lost big clients. I'm still here, still building. It's all on this site, the good and the bad, in case it helps you.",
   ],
   photoAlt: "Vishal Thakur",
   buildingHeading: "RIGHT NOW I'M BUILDING",
@@ -144,7 +144,7 @@ export const story = {
       years: "2017–2022",
       title: "7–8 marketing jobs",
       built:
-        "Content, copy and product marketing. I brought in the leads and did most of the work to close deals with Reliance and Mirage Cinemas (self-service kiosks). The founder was meant to do the last step, and neither deal closed.",
+        "Content, copy and product marketing. I brought in the leads and did most of the work on deals with Reliance and Mirage Cinemas for self-service kiosks. They didn't close in the end, but I got close.",
       broke:
         "Got fired 3–4 times. Didn't get into Punjab Police and the income tax department. Lucky escape.",
       learned:
