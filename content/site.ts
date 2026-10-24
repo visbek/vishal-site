@@ -42,7 +42,7 @@ export const home = {
   badge: "CURRENTLY BUILDING SPARRWO & BORING MONKEE",
   title: "Hi, I'm Vishal.",
   intro: [
-    "I love building things, taking risks and travelling. I enjoy long walks, good food and time with my wife.",
+    "I love building things, taking risks and travelling. I enjoy long walks, good food and reading books.",
     "I've been fired 3–4 times, closed two startups and lost big clients. I'm still here, still building. It's all on this site, the good and the bad, in case it helps you.",
   ],
   photoAlt: "Vishal Thakur",
@@ -495,7 +495,6 @@ export const howIWork = {
     "Long walks",
     "Books (I want to read more)",
     "Good food",
-    "Time with my wife",
   ],
 };
 
