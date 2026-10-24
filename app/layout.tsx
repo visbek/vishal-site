@@ -14,6 +14,7 @@ export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: { default: "Vishal Thakur", template: "%s | Vishal Thakur" },
   description: defaultDescription,
+  verification: { google: "WKExxiNEyWL9c34EwUL4hXGCTihH5XmkoN5zoMto2mA" },
   openGraph: {
     type: "website",
     siteName: "Vishal Thakur",
