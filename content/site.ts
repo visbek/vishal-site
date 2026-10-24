@@ -144,11 +144,11 @@ export const story = {
       years: "2017–2022",
       title: "7–8 marketing jobs",
       built:
-        "Content, copy and product marketing. I brought in the leads and did most of the work on deals with Reliance and Mirage Cinemas for self-service kiosks. They didn't close in the end, but I got close.",
+        "I started as a content writer. Then I learned copywriting, SEO, content marketing and product marketing, one job at a time. I also brought in leads and worked on deals with Reliance and Mirage Cinemas for self-service kiosks. They didn't close, but I got close.",
       broke:
         "Got fired 3–4 times. Didn't get into Punjab Police and the income tax department. Lucky escape.",
       learned:
-        "Getting fired is not the end. I still kept getting good jobs.",
+        "Jobs taught me one skill at a time. Startups teach you everything from zero: sales, building products, marketing. It's tough, it's breathtaking, and it's worth it. And getting fired is not the end. I still kept getting good jobs.",
     },
     {
       year: "2019",
