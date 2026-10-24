@@ -1,13 +1,8 @@
 import type { Metadata } from "next";
 import { home } from "@/content/site";
 
-// The web address is picked up automatically on Vercel (including your own
-// domain once it is connected). NEXT_PUBLIC_SITE_URL can override it.
-export const siteUrl =
-  process.env.NEXT_PUBLIC_SITE_URL ||
-  (process.env.VERCEL_PROJECT_PRODUCTION_URL
-    ? `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}`
-    : "http://localhost:3000");
+// The public address of the site. Change it here if the domain ever changes.
+export const siteUrl = "https://www.vishalboring.com";
 
 export const defaultDescription = home.description;
 
@@ -36,3 +31,15 @@ export function pageMetadata(title: string, description: string, path: string): 
     },
   };
 }
+
+export const homeMetadata: Metadata = {
+  alternates: { canonical: "/" },
+  openGraph: {
+    type: "website",
+    siteName: "Vishal Thakur",
+    title: "Vishal Thakur",
+    description: defaultDescription,
+    url: "/",
+    images: ogImages,
+  },
+};

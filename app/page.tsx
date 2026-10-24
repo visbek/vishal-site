@@ -3,6 +3,9 @@ import Link from "next/link";
 import Header from "@/components/Header";
 import Contact from "@/components/Contact";
 import { home, site } from "@/content/site";
+import { homeMetadata } from "@/lib/seo";
+
+export const metadata = homeMetadata;
 
 export default function HomePage() {
   return (
